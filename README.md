@@ -17,7 +17,7 @@ UI schema that says how to render the form items of the document.
 
 ## Screen
 
-![Screen-shot](doc/registration-form.png)!
+![Screen-shot](doc/registration-form.png)
 
 ---
 
