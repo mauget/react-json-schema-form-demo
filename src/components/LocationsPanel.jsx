@@ -12,18 +12,16 @@ const StyledWrapper = styled.section`
   margin: 2rem;
   padding: 4rem;
   max-width: 50%;
-  border: solid 2px papayawhip;
+  border: solid 2px lightgray;
 `;
 
 const StyledTitle = styled.h1`
   font-size: 1.5rem;
   text-align: center;
-  color: palevioletred;
 `;
 
 const StyledDetailArea = styled.div`
   margin: 1.5rem;
-  color: papayawhip;
 `;
 
 export function LocationsPanel() {
