@@ -2,34 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import jsonSchema from "../schemas/jsonSchema";
 import uiSchema from "../schemas/uiSchema";
-import Form from "@rjsf/core";
+import Form from "@rjsf/material-ui";
 import formData from "../services/formData";
-
-// const formData = {
-//     "title": "A registration form",
-//     "description": "A simple form example.",
-//     "type": "object",
-//     "required": [
-//         "firstName",
-//         "lastName"
-//     ],
-//     "properties": {
-//         "firstName": {
-//             "type": "string",
-//             "title": "First name",
-//             "default": "Chuck"
-//         },
-//         "lastName": {
-//             "type": "string",
-//             "title": "Last name"
-//         },
-//         "telephone": {
-//             "type": "string",
-//             "title": "Telephone",
-//             "minLength": 10
-//         }
-//     }
-// };
 
 const StyledWrapper = styled.section`
   display: flex;
@@ -49,6 +23,7 @@ const StyledTitle = styled.h1`
 
 const StyledDetailArea = styled.div`
   margin: 1.5rem;
+  color: papayawhip;
 `;
 
 export function LocationsPanel() {
