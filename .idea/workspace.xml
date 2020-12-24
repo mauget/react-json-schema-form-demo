@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/registration-form.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +57,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$/src/services" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/schemas" />
@@ -82,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608755624169</updated>
-      <workItem from="1608755625610" duration="9472000" />
+      <workItem from="1608755625610" duration="10038000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608768743812</created>
@@ -91,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608768743812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed typo in README.md">
+      <created>1608768876377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608768876377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Fixed typo in README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo in README.md" />
   </component>
 </project>

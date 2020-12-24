@@ -15,6 +15,10 @@ UI schema that says how to render the form items of the document.
 1. `yarn start`
 1. Browser address: `http://localhost;3000`
 
+## Screen
+
+![Screen-shot](doc/registration-form.png)!
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
