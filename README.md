@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# Example of React JSON Schema Form with Styled Components
+
+## Description
+This web application displays a syled from based on a JSON
+document, a JSON schema describing the document, and a JSON
+UI schema that says how to render the form items of the document.
+
+## Install
+
+1. Clone this project
+1. `yarn install`
+
+## Run
+
+1. `yarn start`
+1. Browser address: `http://localhost;300-`
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
