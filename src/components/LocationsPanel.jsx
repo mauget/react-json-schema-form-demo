@@ -5,32 +5,6 @@ import uiSchema from "../schemas/uiSchema";
 import Form from "@rjsf/material-ui";
 import formData from "../services/formData";
 
-// const formData = {
-//     "title": "A registration form",
-//     "description": "A simple form example.",
-//     "type": "object",
-//     "required": [
-//         "firstName",
-//         "lastName"
-//     ],
-//     "properties": {
-//         "firstName": {
-//             "type": "string",
-//             "title": "First name",
-//             "default": "Chuck"
-//         },
-//         "lastName": {
-//             "type": "string",
-//             "title": "Last name"
-//         },
-//         "telephone": {
-//             "type": "string",
-//             "title": "Telephone",
-//             "minLength": 10
-//         }
-//     }
-// };
-
 const StyledWrapper = styled.section`
   display: flex;
   flex-direction: column;
@@ -38,13 +12,13 @@ const StyledWrapper = styled.section`
   margin: 2rem;
   padding: 4rem;
   max-width: 50%;
-  border: solid 2px papayawhip;
+  border: solid 2px darkgrey;
 `;
 
 const StyledTitle = styled.h1`
   font-size: 1.5rem;
   text-align: center;
-  color: palevioletred;
+  //color: palevioletred;
 `;
 
 const StyledDetailArea = styled.div`
