@@ -13,7 +13,7 @@ UI schema that says how to render the form items of the document.
 ## Run
 
 1. `yarn start`
-1. Browser address: `http://localhost;3000`
+1. Browser address: http://localhost:3000
 
 ## Screen
 
