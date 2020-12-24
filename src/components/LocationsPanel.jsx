@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import jsonSchema from "../schemas/jsonSchema";
 import uiSchema from "../schemas/uiSchema";
-import Form from "@rjsf/core";
+import Form from "@rjsf/material-ui";
 import formData from "../services/formData";
 
 // const formData = {
