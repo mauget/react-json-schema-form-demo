@@ -15,4 +15,6 @@ const formData = {
         "altitude": "2500.00"
     }
 };
-export default formData;
+
+const getFormData = async () => formData;
+export default getFormData;
