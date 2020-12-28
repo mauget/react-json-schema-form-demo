@@ -1,5 +1,5 @@
 const jsonSchema = {
-    "title": "Earth waypoints form",
+    "title": "Geographic Waypoints",
     "description": "Array of three-field objects",
     "type": "object",
     "properties": {
