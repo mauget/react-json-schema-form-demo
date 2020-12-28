@@ -1,8 +1,8 @@
-import TripleInputRow from "../components/customFormTemplates/TripleInputRow";
+import RowWithMultipleInputFieldsTemplate from "../components/customFormTemplates/RowWithMultipleInputFieldsTemplate";
 
 const uiSchema = {
     "location1": {
-        "ui:ObjectFieldTemplate": TripleInputRow,
+        "ui:ObjectFieldTemplate": RowWithMultipleInputFieldsTemplate,
         "ui:title": "Location One",
         "ui:autofocus": true,
         "ui:options": {
@@ -10,12 +10,12 @@ const uiSchema = {
         }
     },
     "location2": {
-        "ui:ObjectFieldTemplate": TripleInputRow,
-        "ui:title": "Location Two",
+        "ui:ObjectFieldTemplate": RowWithMultipleInputFieldsTemplate,
+        "ui:title": "Location Two"
     },
     "location3": {
-        "ui:ObjectFieldTemplate": TripleInputRow,
-        "ui:title": "Location Three",
+        "ui:ObjectFieldTemplate": RowWithMultipleInputFieldsTemplate,
+        "ui:title": "Location Three"
     }
 };
 

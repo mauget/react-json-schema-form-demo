@@ -3,13 +3,12 @@ import styled from 'styled-components';
 import jsonSchema from "../schemas/jsonSchema";
 import uiSchema from "../schemas/uiSchema";
 import Form from "@rjsf/material-ui";
-// import TripleInputRow from "./customFormTemplates/TripleInputRow";
 import getFormData from "../services/formData";
 
 const StyledWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  flex: 1 0 0;
   margin: 2rem;
   padding: 4rem;
   max-width: 50%;
@@ -22,23 +21,24 @@ const StyledTitle = styled.h1`
 `;
 
 const StyledDetailArea = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
   margin: 1.5rem;
 `;
 
 export function LocationsPanel() {
     const [formData, setFormData] = useState({})
-    useEffect(() =>{
-        getFormData().then((data)=>{
-            console.log(data);
+    useEffect(() => {
+        getFormData().then((data) => {
             setFormData(data);
-        }).catch((err)=> console.error(err));
-    },[])
+        }).catch((err) => console.error(err));
+    }, [])
 
     return (
         <StyledWrapper>
             <StyledTitle>Demonstration of React JSON Schema</StyledTitle>
             <StyledDetailArea>
-                {/*<Form schema={jsonSchema} uiSchema={uiSchema} formData={formData} fieldTemplate={TripleInputRow}/>*/}
                 <Form schema={jsonSchema} uiSchema={uiSchema} formData={formData}/>
             </StyledDetailArea>
         </StyledWrapper>

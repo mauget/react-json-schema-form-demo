@@ -10,6 +10,85 @@ UI schema that says how to render the form items of the document.
 1. Clone this project
 1. `yarn install`
 
+## Demo Data
+```json
+{
+    "location1": {
+        "latitude": "35.611",
+        "longitude": "-78.772",
+        "altitude": "2000.00"
+    },
+    "location2": {
+        "latitude": "43",
+        "longitude": "-115",
+        "altitude": "5000.00"
+    },
+    "location3": {
+        "latitude": "54",
+        "longitude": "-99",
+        "altitude": "2500.00"
+    }
+}
+```
+## JSON Schema
+```json
+{
+    "title": "Earth waypoints form",
+    "description": "Array of three-field objects",
+    "type": "object",
+    "properties": {
+        "location1": {
+            "type": "object",
+            "properties": {
+                "latitude": {"type": "string"},
+                "longitude": {"type": "string"},
+                "altitude": {"type": "string"}
+            }
+        },
+        "location2": {
+            "type": "object",
+            "properties": {
+                "latitude": {"type": "string"},
+                "longitude": {"type": "string"},
+                "altitude": {"type": "string"}
+            }
+        },
+        "location3": {
+            "type": "object",
+            "properties": {
+                "latitude": {"type": "string"},
+                "longitude": {"type": "string"},
+                "altitude": {"type": "string"}
+            }
+        }
+    }
+}
+```
+UI Schema
+The custom object template, `RowWithMultipleInputFieldsTemplate`, is imported within the same source
+as the UI Schema;
+
+```json
+{
+    "location1": {
+        "ui:ObjectFieldTemplate": RowWithMultipleInputFieldsTemplate,
+        "ui:title": "Location One",
+        "ui:autofocus": true,
+        "ui:options": {
+            "inputType": "decimal"
+        }
+    },
+    "location2": {
+        "ui:ObjectFieldTemplate": RowWithMultipleInputFieldsTemplate,
+        "ui:title": "Location Two"
+    },
+    "location3": {
+        "ui:ObjectFieldTemplate": RowWithMultipleInputFieldsTemplate,
+        "ui:title": "Location Three"
+    }
+}
+```
+
 ## Run
 
 1. `yarn start`
