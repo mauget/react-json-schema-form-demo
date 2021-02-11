@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="Added two-column custom object field template">
-      <change afterPath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/registration-form.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/registration-form.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/components/LocationsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LocationsPanel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/jsonSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/jsonSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/uiSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/uiSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/formData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/formData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +87,7 @@
       <workItem from="1608755625610" duration="10211000" />
       <workItem from="1612828476701" duration="6338000" />
       <workItem from="1612835733444" duration="1344000" />
-      <workItem from="1613006631386" duration="12193000" />
+      <workItem from="1613006631386" duration="12656000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608768743812</created>
@@ -121,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608769434131</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added two-column custom object field template">
+      <created>1613051773887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613051773887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

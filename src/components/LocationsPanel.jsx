@@ -2,14 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import jsonSchema from "../schemas/jsonSchema";
 import uiSchema from "../schemas/uiSchema";
-// import Form from "@rjsf/material-ui";
 import Form from '@rjsf/core';
 import formData from "../services/formData";
 
 const StyledWrapper = styled.section`
-  //display: flex;
-  //flex-direction: column;
-  //justify-content: flex-start;
   margin: 2rem;
   padding: 4rem;
   border: solid 1px darkred;
