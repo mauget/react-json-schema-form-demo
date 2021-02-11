@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const StyledObjectFieldTemplate = styled.div`
   display: flex;
@@ -20,20 +21,19 @@ const StyledCol = styled.div`
 `;
 
 /**
- * This object field template controls the layout of the form.
- * It arranges all fields in a single row using flex-wraap and min-width to force the layout
- * to rows of two fields. For form widths approaching min-width each row containts one field.
+ * This object field template controls the layout of an RJSF form.
+ * It arranges all fields in a single row using flex-wrap and min-width to force the layout
+ * to rows of two fields. For form widths approaching min-width each row contains one field.
  *
  * Add this custom object template to a `<form 0bjectFieldTemplate=TwoColObjectFieldTemplate `,
- * or JSON UI schema,
+ * or to the RJSF UI schema,
  * ` "ui:TwoColObjectFieldTemplate": TwoColObjectFieldTemplate, `
  *
  * @param TitleField
- * @param properties
- * @param title
+ * @param properties array
+ * @param title string
  * @param description
  * @returns {JSX.Element}
- * @constructor
  */
 function TwoColObjectFieldTemplate({TitleField, properties, title, description}) {
     console.log(properties);
@@ -51,5 +51,18 @@ function TwoColObjectFieldTemplate({TitleField, properties, title, description})
         </StyledObjectFieldTemplate>
     );
 }
+
+TwoColObjectFieldTemplate.propTypes = {
+    TitleField: PropTypes.element.isRequired,
+    properties: PropTypes.array,
+    title: PropTypes.string,
+    description: PropTypes.string,
+};
+
+TwoColObjectFieldTemplate.defaultProps = {
+    proerties: [],
+    title: '',
+    description: '',
+};
 
 export default TwoColObjectFieldTemplate;
