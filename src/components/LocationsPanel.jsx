@@ -1,39 +1,45 @@
 import React from 'react';
 import styled from 'styled-components';
-import jsonSchema from "../schemas/jsonSchema";
-import uiSchema from "../schemas/uiSchema";
 import Form from '@rjsf/core';
-import formData from "../services/formData";
+import jsonSchema from '../schemas/jsonSchema';
+import uiSchema from '../schemas/uiSchema';
+import formData from '../services/formData';
 
 const StyledWrapper = styled.section`
-  margin: 2rem;
-  padding: 4rem;
-  border: solid 1px darkred;
-  color: darkslateblue;
-  border-radius: 12px;
+    margin: 2rem;
+    padding: 4rem;
+    border: solid 1px darkred;
+    color: darkslateblue;
+    border-radius: 12px;
 `;
 
 const StyledTitle = styled.h1`
-  font-size: 1.5rem;
-  text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
 `;
 
 const StyledDetailArea = styled.div`
-  margin: 1.5rem;
+    margin: 1.5rem;
 `;
 
 const submitHandler = (data) => {
+    // eslint-disable-next-line no-console
     console.log(data.formData);
+    // eslint-disable-next-line no-alert
     alert(JSON.stringify(data.formData));
-}
-const log = (event) => {
-    console.log(event);
-}
-const focusHander = (event) => {
-    console.log(event);
-}
+};
 
-export function LocationsPanel() {
+const log = (event) => {
+    // eslint-disable-next-line no-console
+    console.log(event);
+};
+
+const focusHandler = (event) => {
+    // eslint-disable-next-line no-console
+    console.log(event);
+};
+
+export default function LocationsPanel() {
     return (
         <StyledWrapper>
             <StyledTitle>Demonstration of React JSON Schema</StyledTitle>
@@ -44,8 +50,8 @@ export function LocationsPanel() {
                     formData={formData}
                     liveValidate
                     onSubmit={submitHandler}
-                    onError={log("errors")}
-                    onFocus={focusHander}
+                    onError={log('errors')}
+                    onFocus={focusHandler}
                 />
             </StyledDetailArea>
         </StyledWrapper>
