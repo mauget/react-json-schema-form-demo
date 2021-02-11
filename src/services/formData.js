@@ -1,20 +1,11 @@
 const formData =
     {
-        "location1": {
-            "latitude": "35.611",
-            "longitude": "-78.772",
-            "altitude": "2000.00"
-        },
-        "location2": {
-            "latitude": "43",
-            "longitude": "-115",
-            "altitude": "5000.00"
-        },
-        "location3": {
-            "latitude": "54",
-            "longitude": "-99",
-            "altitude": "2500.00"
-        }
+        'firstName': 'King',
+        'lastName': 'Edward',
+        'age': 7,
+        'bio': 'Been there, done that, moved on.',
+        'telephone': '8885551234',
+        'date': '2020-02-08'
     };
 
 export default formData;

@@ -5,6 +5,9 @@ This web application displays a syled from based on a JSON
 document, a JSON schema describing the document, and a JSON
 UI schema that says how to render the form items of the document.
 
+It uses a custom object field template in its Ui schema to force
+fields into two columns or one column for narrow views.
+
 ## Install
 
 1. Clone this project

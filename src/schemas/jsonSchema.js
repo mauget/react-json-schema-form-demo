@@ -10,17 +10,30 @@ const jsonSchema = {
         "firstName": {
             "type": "string",
             "title": "First name",
-            "default": "Chuck"
+            "default": "Lou"
         },
         "lastName": {
             "type": "string",
-            "title": "Last name"
+            "title": "Last name",
+            "default": "Mauget"
         },
         "telephone": {
             "type": "string",
             "title": "Telephone",
             "minLength": 10
-        }
+        },
+        "age": {
+            "type": "number",
+            "title": "Age"
+        },
+        "bio": {
+            "type": "string",
+            "title": "Biograaphy"
+        },
+        "password": {
+            "type": "string",
+            "title": "Password"
+        },
     }
 };
 

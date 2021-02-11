@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="">
+    <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="Added two-column custom object field template">
+      <change afterPath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/registration-form.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/registration-form.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LocationsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LocationsPanel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/jsonSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/jsonSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/uiSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/uiSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/formData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/formData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +58,7 @@
     <property name="org.elm.workspace.PROJECT_DISCOVERY" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -89,6 +96,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608755624169</updated>
       <workItem from="1608755625610" duration="10211000" />
+      <workItem from="1612828476701" duration="6338000" />
+      <workItem from="1612835733444" duration="1344000" />
+      <workItem from="1613006631386" duration="12193000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608768743812</created>
@@ -121,6 +131,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Fixed typo in README.md" />
     <MESSAGE value="Added screen-shot to README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added screen-shot to README.md" />
+    <MESSAGE value="Added two-column custom object field template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added two-column custom object field template" />
   </component>
 </project>

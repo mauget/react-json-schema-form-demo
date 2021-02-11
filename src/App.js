@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import {LocationsPanel} from "./components/LocationsPanel";
+import {LocationsPanel} from './components/LocationsPanel';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const StyledBody = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
 `;
 
 function App() {
