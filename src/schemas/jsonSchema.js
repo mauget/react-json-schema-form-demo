@@ -14,7 +14,7 @@ const jsonSchema = {
             title: 'Last name',
             default: 'Mauget',
         },
-        telephone: {
+        phone: {
             type: 'string',
             title: 'Telephone',
             minLength: 10,

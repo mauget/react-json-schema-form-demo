@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styled from 'styled-components';
 import Form from '@rjsf/core';
+import toastr from 'toastr/toastr';
 import jsonSchema from '../schemas/jsonSchema';
 import uiSchema from '../schemas/uiSchema';
-import formData from '../services/formData';
+import getFormData from '../services/getFormData';
+
 
 const StyledWrapper = styled.section`
     margin: 2rem;
@@ -22,36 +24,30 @@ const StyledDetailArea = styled.div`
     margin: 1.5rem;
 `;
 
-const submitHandler = (data) => {
-    // eslint-disable-next-line no-console
-    console.log(data.formData);
-    // eslint-disable-next-line no-alert
-    alert(JSON.stringify(data.formData));
-};
-
-const log = (event) => {
-    // eslint-disable-next-line no-console
-    console.log(event);
-};
-
-const focusHandler = (event) => {
-    // eslint-disable-next-line no-console
-    console.log(event);
-};
-
 export default function LocationsPanel() {
+    const ref = useRef(getFormData());
+
+    const submitHandler = () => {
+        // eslint-disable-next-line no-console
+        console.log(ref.current);
+        toastr.success(JSON.stringify(ref.current));
+    };
+
+    const handleOnChange = (event) => {
+        ref.current = event.formData;
+    };
+
     return (
         <StyledWrapper>
             <StyledTitle>Demonstration of React JSON Schema</StyledTitle>
             <StyledDetailArea>
                 <Form
+                    dataTestId="testid"
                     schema={jsonSchema}
                     uiSchema={uiSchema}
-                    formData={formData}
-                    liveValidate
+                    formData={ref.current}
+                    onChange={handleOnChange}
                     onSubmit={submitHandler}
-                    onError={log('errors')}
-                    onFocus={focusHandler}
                 />
             </StyledDetailArea>
         </StyledWrapper>

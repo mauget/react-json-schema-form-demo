@@ -41,8 +41,6 @@ function TwoColObjectFieldTemplate({
     title,
     description,
 }) {
-    // eslint-disable-next-line no-console
-    console.log(properties);
     return (
         <StyledObjectFieldTemplate>
             <TitleField title={title} />
@@ -57,15 +55,8 @@ function TwoColObjectFieldTemplate({
 }
 
 TwoColObjectFieldTemplate.propTypes = {
-    TitleField: PropTypes.element.isRequired,
-    properties: PropTypes.arrayOf(
-        PropTypes.oneOfType([
-            PropTypes.element,
-            PropTypes.string,
-            PropTypes.number,
-            PropTypes.bool,
-        ])
-    ),
+    TitleField: PropTypes.func.isRequired,
+    properties: PropTypes.arrayOf(PropTypes.shape({})),
     title: PropTypes.string,
     description: PropTypes.string,
 };

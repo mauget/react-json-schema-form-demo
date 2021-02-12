@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocationsPanel should call onChage 1`] = `ShallowWrapper {}`;
+
+exports[`LocationsPanel should match its snapshot 1`] = `ShallowWrapper {}`;

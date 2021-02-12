@@ -21,11 +21,9 @@ const uiSchema = {
     password: {
         'ui:widget': 'password',
     },
-    telephone: {
-        'ui:options': {
-            inputType: 'tel',
-        },
-    },
+    // phone: {
+    //     'ui:widget': 'tel',
+    // },
 };
 
 export default uiSchema;
