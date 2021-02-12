@@ -20,7 +20,7 @@ fields into two columns or one column for narrow views.
 
 ## Screen
 
-![Screen-shot](doc/registration-form.png)!
+[Screen-shot](doc/registration-form.png)
 
 ---
 
