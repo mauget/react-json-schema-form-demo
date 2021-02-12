@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/LocationsPanel.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.test.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/getFormData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/getFormData.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LocationsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LocationsPanel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/jsonSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/jsonSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/uiSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/uiSchema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/formData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/formData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LocationsPanel.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LocationsPanel.test.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,7 @@
       <recent name="$PROJECT_DIR$/src/schemas" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.TwoColObjectFieldTemplate">
+  <component name="RunManager" selected="Jest.LocationsPanel">
     <configuration name="LocationsPanel" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -171,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.LocationsPanel" />
+        <item itemvalue="Jest.LocationsPanel.should call onChage" />
         <item itemvalue="npm.coverage" />
         <item itemvalue="Jest.TwoColObjectFieldTemplate" />
         <item itemvalue="Jest.TwoColObjectFieldTemplate.should match its snapshot" />
-        <item itemvalue="Jest.LocationsPanel" />
-        <item itemvalue="Jest.LocationsPanel.should call onChage" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +185,7 @@
       <workItem from="1612828476701" duration="6338000" />
       <workItem from="1612835733444" duration="1344000" />
       <workItem from="1613006631386" duration="13288000" />
-      <workItem from="1613138996646" duration="5138000" />
+      <workItem from="1613138996646" duration="9068000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608768743812</created>
@@ -245,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613078830524</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added more unit tests">
+      <created>1613144767645</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613144767645</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,19 +257,8 @@
     <MESSAGE value="Removed commented-out code" />
     <MESSAGE value="Add React PropType declaration and defaults" />
     <MESSAGE value="Added airbnb eslint config and prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added airbnb eslint config and prettier" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.jsx</url>
-          <line>48</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added more unit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more unit tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -282,7 +269,7 @@
     <SUITE FILE_PATH="coverage/react_json_schema_form_demo$renders_learn_react_link.info" NAME="renders learn react link Coverage Results" MODIFIED="1613053074554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/react_json_schema_form_demo$getFormData.info" NAME="getFormData Coverage Results" MODIFIED="1613139557274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/react_json_schema_form_demo$App.info" NAME="App Coverage Results" MODIFIED="1613094586463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/react_json_schema_form_demo$LocationsPanel.info" NAME="LocationsPanel Coverage Results" MODIFIED="1613140817168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_json_schema_form_demo$LocationsPanel.info" NAME="LocationsPanel Coverage Results" MODIFIED="1613145625183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/react_json_schema_form_demo$TwoColObjectFieldTemplate.info" NAME="TwoColObjectFieldTemplate Coverage Results" MODIFIED="1613141073692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

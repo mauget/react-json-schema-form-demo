@@ -6,6 +6,7 @@ import jsonSchema from '../schemas/jsonSchema';
 import uiSchema from '../schemas/uiSchema';
 import getFormData from '../services/getFormData';
 
+toastr.options.progressBar = true;
 
 const StyledWrapper = styled.section`
     margin: 2rem;

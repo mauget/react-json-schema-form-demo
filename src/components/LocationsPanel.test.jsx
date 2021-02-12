@@ -5,6 +5,8 @@ import LocationsPanel from './LocationsPanel';
 
 configure({ adapter: new Adapter() });
 
+jest.mock('@rjsf/core');
+
 describe('LocationsPanel', () => {
 
     it('should match its snapshot', () => {

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import LocationsPanel from './components/LocationsPanel';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'toastr/build/toastr.min.css';
 
 const StyledBody = styled.div`
     display: flex;
