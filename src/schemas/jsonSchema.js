@@ -1,6 +1,6 @@
 const jsonSchema = {
-    title: 'A registration form',
-    description: 'A simple form example.',
+    title: 'Registration form',
+    description: 'Mulci-column form example.',
     type: 'object',
     required: ['firstName', 'lastName'],
     properties: {

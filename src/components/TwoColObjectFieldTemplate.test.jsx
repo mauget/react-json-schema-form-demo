@@ -1,11 +1,11 @@
 import React from 'react';
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import TwoColObjectFieldTemplate from './TwoColObjectFieldTemplate';
+import MultiColumnObjectFieldTemplate from './TwoColObjectFieldTemplate';
 
 configure({ adapter: new Adapter() });
 
-describe('TwoColObjectFieldTemplate', () => {
+describe('MultiColumnObjectFieldTemplate', () => {
     it('should match its snapshot', () => {
         const titleField = jest.fn();
         const properties = [
@@ -14,7 +14,7 @@ describe('TwoColObjectFieldTemplate', () => {
             { content: { ket: 'age' } },
         ];
         const wrapper = shallow(
-            <TwoColObjectFieldTemplate
+            <MultiColumnObjectFieldTemplate
                 TitleField={titleField}
                 properties={properties}
                 title='title'

@@ -10,7 +10,7 @@ toastr.options.progressBar = true;
 
 const StyledWrapper = styled.section`
     margin: 2rem;
-    padding: 4rem;
+    padding: 1rem;
     border: solid 1px darkred;
     color: darkslateblue;
     border-radius: 12px;
@@ -18,11 +18,10 @@ const StyledWrapper = styled.section`
 
 const StyledTitle = styled.h1`
     font-size: 1.5rem;
-    text-align: center;
 `;
 
 const StyledDetailArea = styled.div`
-    margin: 1.5rem;
+    margin: 2.0rem;
 `;
 
 export default function LocationsPanel() {
@@ -40,7 +39,7 @@ export default function LocationsPanel() {
 
     return (
         <StyledWrapper>
-            <StyledTitle>Demonstration of React JSON Schema</StyledTitle>
+            <StyledTitle>React JSON Schema Form Demo</StyledTitle>
             <StyledDetailArea>
                 <Form
                     dataTestId="testid"

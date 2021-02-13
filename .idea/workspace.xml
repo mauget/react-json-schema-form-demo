@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/registration-form.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/registration-form.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LocationsPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LocationsPanel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/__snapshots__/TwoColObjectFieldTemplate.test.jsx.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__snapshots__/TwoColObjectFieldTemplate.test.jsx.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/jsonSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/jsonSchema.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +86,7 @@
       <recent name="$PROJECT_DIR$/src/schemas" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.Debug Application">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -156,7 +162,8 @@
       <workItem from="1613006631386" duration="13288000" />
       <workItem from="1613138996646" duration="10651000" />
       <workItem from="1613153637156" duration="581000" />
-      <workItem from="1613177351783" duration="1730000" />
+      <workItem from="1613177351783" duration="1858000" />
+      <workItem from="1613219895100" duration="3543000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608768743812</created>
@@ -228,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613177415930</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Edit test scripts; reflect change to README.md">
+      <created>1613179128956</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613179128956</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +259,8 @@
     <MESSAGE value="Added more unit tests" />
     <MESSAGE value="Notifcation via toastr" />
     <MESSAGE value="Edit README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit README.md" />
+    <MESSAGE value="Edit test scripts; reflect change to README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit test scripts; reflect change to README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

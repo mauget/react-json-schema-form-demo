@@ -15,8 +15,7 @@ const StyledRow = styled.div`
 `;
 
 const StyledCol = styled.div`
-    min-width: 44%;
-    margin: 0.5rem;
+    margin: 0 2rem 0 0;
     flex-grow: 1;
 `;
 
@@ -25,9 +24,9 @@ const StyledCol = styled.div`
  * It arranges all fields in a single row using flex-wrap and min-width to force the layout
  * to rows of two fields. For form widths approaching min-width each row contains one field.
  *
- * Add this custom object template to a `<form objectFieldTemplate=TwoColObjectFieldTemplate `,
+ * Add this custom object template to a `<form objectFieldTemplate=MultiColumnObjectFieldTemplate `,
  * or to the RJSF UI schema,
- * ` "ui:TwoColObjectFieldTemplate": TwoColObjectFieldTemplate, `
+ * ` "ui:MultiColumnObjectFieldTemplate": MultiColumnObjectFieldTemplate, `
  *
  * @param TitleField
  * @param properties array
