@@ -7,6 +7,7 @@
     <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,47 +80,7 @@
       <recent name="$PROJECT_DIR$/src/schemas" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.LocationsPanel">
-    <configuration name="LocationsPanel" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/LocationsPanel.test.jsx" />
-      <test-names>
-        <test-name value="LocationsPanel" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="LocationsPanel.should call onChage" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/LocationsPanel.test.jsx" />
-      <test-names>
-        <test-name value="LocationsPanel" />
-        <test-name value="should call onChage" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="TwoColObjectFieldTemplate" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.test.jsx" />
-      <test-names>
-        <test-name value="TwoColObjectFieldTemplate" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -153,13 +114,28 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test:coverage" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test:coverage" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.coverage" />
+      <item itemvalue="npm.test" />
+      <item itemvalue="npm.test:coverage" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test:coverage" />
         <item itemvalue="npm.coverage" />
         <item itemvalue="npm.test" />
-        <item itemvalue="Jest.LocationsPanel" />
-        <item itemvalue="Jest.LocationsPanel.should call onChage" />
-        <item itemvalue="Jest.TwoColObjectFieldTemplate" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +156,7 @@
       <workItem from="1613006631386" duration="13288000" />
       <workItem from="1613138996646" duration="10651000" />
       <workItem from="1613153637156" duration="581000" />
+      <workItem from="1613177351783" duration="1730000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608768743812</created>
@@ -244,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613150871892</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Edit README.md">
+      <created>1613177415930</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613177415930</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +244,8 @@
     <MESSAGE value="Added airbnb eslint config and prettier" />
     <MESSAGE value="Added more unit tests" />
     <MESSAGE value="Notifcation via toastr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Notifcation via toastr" />
+    <MESSAGE value="Edit README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
