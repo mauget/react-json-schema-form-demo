@@ -1,7 +1,7 @@
-import TwoColObjectFieldTemplate from '../components/TwoColObjectFieldTemplate';
+import FluidObjectFieldTemplate from '../components/FluidObjectFieldTemplate';
 
 const uiSchema = {
-    'ui:ObjectFieldTemplate': TwoColObjectFieldTemplate,
+    'ui:ObjectFieldTemplate': FluidObjectFieldTemplate,
     firstName: {
         'ui:autofocus': true,
         'ui:emptyValue': '',

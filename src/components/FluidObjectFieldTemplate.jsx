@@ -34,7 +34,7 @@ const StyledCol = styled.div`
  * @param description
  * @returns {JSX.Element}
  */
-function TwoColObjectFieldTemplate({
+function FluidObjectFieldTemplate({
     TitleField,
     properties,
     title,
@@ -53,17 +53,17 @@ function TwoColObjectFieldTemplate({
     );
 }
 
-TwoColObjectFieldTemplate.propTypes = {
+FluidObjectFieldTemplate.propTypes = {
     TitleField: PropTypes.func.isRequired,
     properties: PropTypes.arrayOf(PropTypes.shape({})),
     title: PropTypes.string,
     description: PropTypes.string,
 };
 
-TwoColObjectFieldTemplate.defaultProps = {
+FluidObjectFieldTemplate.defaultProps = {
     title: '',
     description: '',
     properties: [],
 };
 
-export default TwoColObjectFieldTemplate;
+export default FluidObjectFieldTemplate;
