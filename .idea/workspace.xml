@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-cli.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-run.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FluidObjectFieldTemplate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TwoColObjectFieldTemplate.test.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/schemas/uiSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/uiSchema.js" afterDir="false" />
-    </list>
+    <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,17 +144,17 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="Jest.TwoColObjectFieldTemplate.test.jsx" />
       <item itemvalue="npm.npm start" />
       <item itemvalue="npm.coverage" />
       <item itemvalue="npm.test" />
       <item itemvalue="npm.test:coverage" />
       <item itemvalue="npm.build" />
-      <item itemvalue="Jest.TwoColObjectFieldTemplate.test.jsx" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
         <item itemvalue="Jest.TwoColObjectFieldTemplate.test.jsx" />
         <item itemvalue="npm.test:coverage" />
         <item itemvalue="npm.coverage" />
@@ -190,7 +181,7 @@
       <workItem from="1613177351783" duration="1858000" />
       <workItem from="1613219895100" duration="4260000" />
       <workItem from="1613263736045" duration="7832000" />
-      <workItem from="1613874072309" duration="859000" />
+      <workItem from="1613874072309" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608768743812</created>
@@ -276,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613223552848</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Form rows are multi-column, according to parent width - test">
+      <created>1613939845869</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613939845869</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +293,8 @@
     <MESSAGE value="Edit README.md" />
     <MESSAGE value="Edit test scripts; reflect change to README.md" />
     <MESSAGE value="Form rows are multi-column, according to parent width." />
-    <option name="LAST_COMMIT_MESSAGE" value="Form rows are multi-column, according to parent width." />
+    <MESSAGE value="Form rows are multi-column, according to parent width - test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form rows are multi-column, according to parent width - test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -308,5 +307,6 @@
     <SUITE FILE_PATH="coverage/react_json_schema_form_demo$App.info" NAME="App Coverage Results" MODIFIED="1613094586463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/react_json_schema_form_demo$LocationsPanel.info" NAME="LocationsPanel Coverage Results" MODIFIED="1613145625183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/react_json_schema_form_demo$TwoColObjectFieldTemplate.info" NAME="TwoColObjectFieldTemplate Coverage Results" MODIFIED="1613141073692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_json_schema_form_demo$TwoColObjectFieldTemplate_test_jsx.info" NAME="TwoColObjectFieldTemplate.test.jsx Coverage Results" MODIFIED="1613939739805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
