@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="" />
+    <list default="true" id="8e3ee9c6-ea7e-4af1-9b98-860e3508b8f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/schemas/jsonSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/schemas/jsonSchema.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,8 +157,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
         <item itemvalue="Jest.TwoColObjectFieldTemplate.test.jsx" />
         <item itemvalue="npm.test:coverage" />
         <item itemvalue="npm.coverage" />
@@ -182,6 +186,8 @@
       <workItem from="1613219895100" duration="4260000" />
       <workItem from="1613263736045" duration="7832000" />
       <workItem from="1613874072309" duration="1621000" />
+      <workItem from="1613945660532" duration="161000" />
+      <workItem from="1613946202630" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608768743812</created>
@@ -274,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613939845869</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Form rows are multi-column, according to parent width - snapshot">
+      <created>1613945760552</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613945760552</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +307,8 @@
     <MESSAGE value="Edit test scripts; reflect change to README.md" />
     <MESSAGE value="Form rows are multi-column, according to parent width." />
     <MESSAGE value="Form rows are multi-column, according to parent width - test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Form rows are multi-column, according to parent width - test" />
+    <MESSAGE value="Form rows are multi-column, according to parent width - snapshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form rows are multi-column, according to parent width - snapshot" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
